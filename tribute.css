@@ -1,0 +1,120 @@
+body {
+    background-image: url("https://media.thestartv.com/thumbnails/5aa221bc003bf_vs.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+ol {
+    text-align: left;
+}
+
+
+
+/*
+==================================
+=====The div with id="main"=======
+==================================
+*/
+
+
+#main {
+    font-family: fantasy;
+    text-align: center;
+    margin: auto;
+    font-size: 1.3em;
+    max-width: 90%;
+    height: auto;
+    display: grid;
+    opacity: 0.7;     
+}
+
+/*
+=============================================
+=====Div Elements within the id="main"=======
+=============================================
+*/
+
+/*User Story 2*/
+#title {
+    background: white;
+    margin-top: 25px;
+    
+}
+
+/*
+=======================
+== Image Div Section ==
+=======================
+*/
+
+/*User Story 3*/
+#img-div {
+    background: white;
+    margin-top: 25px;
+    
+}
+
+/*User Story 4*/
+#image {
+    margin-top: 50px;
+    max-width: 40%;
+    max-height: 500px;
+}
+#img-caption {
+}
+
+
+/*
+=========================
+== Information Section ==
+=========================
+*/
+
+#tribute-info {
+    margin-top: 25px;
+}
+#about {
+    text-align: left;
+    background: white;
+    padding: 10px;
+}
+
+#titles {
+    background: white;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+#tribute-link {
+    background: white;
+    margin-top: 25px;
+}
+
+/*
+======================
+=====Extra Divs=======
+======================
+*/
+
+
+#topnav {
+    overflow: hidden;
+    background-color: gwhite;
+    text-align: center;
+    opacity: 0.7;
+    max-width: 90%;
+    margin: auto;
+}
+
+#topnav a {
+    color: #f2f2f2;
+    padding: 10px 2vw;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+}
+
+
+
