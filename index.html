@@ -1,0 +1,147 @@
+
+<!-- 
+==================
+== User Stories ==
+==================
+
+#1 My tribute page should have an element with a corresponding id="main", which contains all other elements.
+
+#2 I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
+
+#3 I should see a div element with a corresponding id="img-div".
+
+#4 Within the img-div element, I should see an img element with a corresponding id="image"
+
+#5 Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div.
+
+#6 I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.
+
+#7 I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank").
+
+#8 The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
+
+#9 The img element should be centered within its parent element.
+
+========================
+== Problems Encounted ==
+========================
+1. I have set the "img-div" div and the "tribute-info" div to belong to the 
+    same grid area. The current issue is that the divs are overlapping.
+    I want the divs to vertically align.
+===============
+===Checklist===
+===============
+1. x
+2. x
+3. x
+4. x
+5. x
+6.
+7.
+8.
+9.
+10.
+-->
+
+
+
+<!DOCTYPE html>
+<html data-brackets-id='825'>
+    <head data-brackets-id='826'>
+        <title data-brackets-id='827'>Tribute Page</title>
+        <link data-brackets-id='828' rel="stylesheet" type="text/css" href="tribute.css">
+        
+    
+    </head>
+
+    <body data-brackets-id='829'>
+        <div data-brackets-id='830' id="topnav">
+            <ul data-brackets-id='831' id="top">
+                <a data-brackets-id='832' href="#home">Home</a>
+                <a data-brackets-id='833' href="#titles">Titles</a>
+                <a data-brackets-id='834' href="#album">Album</a>
+            </ul>
+            
+        </div>
+        
+        
+        <!--User Story #1-->
+        <div data-brackets-id='835' id="main">
+            
+            
+            <!--User Story #2-->
+            <div data-brackets-id='836' id="title">
+                <h1 data-brackets-id='837'>
+                    Jung Jae Sung 
+                </h1> 
+            </div>
+            
+            <!--User Story #3-->
+            <div data-brackets-id='838' id="img-div">
+                
+                <!--User Story #4-->
+                <img data-brackets-id='839' id="image" src="http://www.badmintonlink.com/Images/Member/0/Album/23/580x580/Jung_Jae_Sung.jpg">
+                
+                <!--User Story #5-->
+                <div data-brackets-id='840' id="img-caption">
+                    <p data-brackets-id='841'>
+                        "Jung Jae Sung going for a Jump Smash"
+                    </p>
+                </div>
+            </div>
+            
+            <div data-brackets-id='842' class="album">
+            </div>
+    
+            
+            <!--User Story #6-->
+            <div data-brackets-id='843' id="tribute-info">
+                
+                <div data-brackets-id='844' id="titles">
+                    <h3 data-brackets-id='845'>Titles (2008 - 2011)</h3>
+                    <ol data-brackets-id='846'>
+                        <li data-brackets-id='847'>2008 All England Open</li>
+                        <li data-brackets-id='848'>2008 Swiss Open</li>
+                        <li data-brackets-id='849'>2008 China Open</li>
+                        <li data-brackets-id='850'>2008 Hong Kong Open</li>
+                        <li data-brackets-id='851'>2009 Malaysia Open</li>
+                        <li data-brackets-id='852'>2009 Korea Open</li>
+                        <li data-brackets-id='853'>2009 Indonesia Open</li>
+                        <li data-brackets-id='854'>2009 Hong Kong Open</li>
+                        <li data-brackets-id='855'>2009 China Open</li>
+                        <li data-brackets-id='856'>2009 Superseries Masters Finals</li>
+                        <li data-brackets-id='857'>2010 Korea Open</li>
+                        <li data-brackets-id='858'>2010 China Open</li>
+                        <li data-brackets-id='859'>2011 Korea Open</li>
+                        <li data-brackets-id='860'>2011 China Masters</li>
+                        <li data-brackets-id='861'>2011 Denmark Open</li>
+                        <li data-brackets-id='862'>2011 French Open</li>
+                        <li data-brackets-id='863'>2011 Hong Kong Open</li>
+                    </ol>
+                </div>
+            </div>
+
+            
+            
+            <a data-brackets-id='864' href="top">Go to top</a>
+            
+            
+            <!--User Story #7-->
+            <div data-brackets-id='865' id="tribute-link">
+                <a data-brackets-id='866' href="https://en.wikipedia.org/wiki/Jung_Jae-sung" target="_blank">More Information</a>
+            </div>
+                
+            
+            
+           
+            
+        
+        </div>
+    </body>
+
+    
+    
+    <footer data-brackets-id='867'>
+     
+    </footer>
+</html>

@@ -1,0 +1,114 @@
+body {
+    background-image: url("https://media.thestartv.com/thumbnails/5aa221bc003bf_vs.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+ol {
+    text-align: left;
+}
+
+
+
+/*
+==================================
+=====The div with id="main"=======
+==================================
+*/
+
+
+#main {
+    font-family: fantasy;
+    text-align: center;
+    border: 5px solid black;
+    margin: auto;
+    font-size: 1.3em;
+    max-width: 90%;
+    height: auto;
+    display: grid;
+    background: white;
+    opacity: 0.8;
+     
+}
+
+/*
+=============================================
+=====Div Elements within the id="main"=======
+=============================================
+*/
+
+/*User Story 2*/
+#title {
+    background: white;
+}
+
+/*
+=======================
+== Image Div Section ==
+=======================
+*/
+
+/*User Story 3*/
+#img-div {
+    color: white;
+}
+
+/*User Story 4*/
+#image {
+    border: 2px solid white;
+    max-width: 40%;
+    max-height: 500px;
+    height: auto;
+}
+#img-caption {
+}
+
+
+/*
+=========================
+== Information Section ==
+=========================
+*/
+#tribute-info {
+    margin-top: 50px;
+    background: black;
+    text-align: center;
+}
+
+#titles {
+    background: white;
+    border: 10px solid white;
+    margin: 10px;
+    
+}
+
+#tribute-link {
+    background: black;
+}
+
+/*
+======================
+=====Extra Divs=======
+======================
+*/
+
+
+#topnav {
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+    opacity: 0.7;
+}
+
+#topnav a {
+    color: #f2f2f2;
+    padding: 10px 2vw;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+}
+
+
+
